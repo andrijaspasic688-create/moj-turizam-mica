@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srbija | Turistički Vodič</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Turizam<span>SRB</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Početna</a></li>
+            <li><a href="#destinations">Destinacije</a></li>
+            <li><a href="#about">O nama</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="hero-text">
+            <h1>Istražite skrivene bisere</h1>
+            <p>Najlepše destinacije na dohvat ruke.</p>
+            <a href="#destinations" class="btn">Kreni u avanturu</a>
+        </div>
+    </header>
+
+    <section id="destinations">
+        <h2>Popularne Destinacije</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1555979864-7493019e71bc?auto=format&fit=crop&w=400&q=80" alt="Kopaonik">
+                <h3>Kopaonik</h3>
+                <p>Planina sunca i vrhunskog skijanja.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1590483734724-39fa0f744f80?auto=format&fit=crop&w=400&q=80" alt="Beograd">
+                <h3>Beograd</h3>
+                <p>Grad koji nikada ne spava na ušću dveju reka.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1527668752968-14dc70a2745c?auto=format&fit=crop&w=400&q=80" alt="Tara">
+                <h3>Tara</h3>
+                <p>Netaknuta priroda i najlepši vidikovci.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontaktirajte nas</h2>
+        <div class="contact-container">
+            <form id="contact-form">
+                <input type="text" placeholder="Ime i prezime" required>
+                <input type="email" placeholder="Vaš Email" required>
+                <textarea placeholder="Vaša poruka"></textarea>
+                <button type="submit" class="btn">Pošalji</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Turizam Srbija | Projekat za školu</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
